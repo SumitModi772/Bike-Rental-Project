@@ -125,7 +125,7 @@ function hmmm(){
     window.alert("User must be logged in to proceed")
 }
 // for payment page
-document.querySelector('#gojo').onclick=() =>{
+document.querySelector('#swiper').onclick=() =>{
     document.querySelector('.chatbot').classList.toggle('active')
 }
 document.getElementById("open-btn").addEventListener("click",function() {

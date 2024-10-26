@@ -640,18 +640,21 @@ section{
 
 
 
-.chatbot {
+/* .chatbot {
     position: fixed;
     bottom: 100px;
     top: 175%;
     right: 0;
-    width: 35%; /* You can adjust the width and height as needed */
-    height: 50%; /* You can adjust the width and height as needed */
-    border: 0px; /* Optional border for visual clarity */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Optional shadow for visual effect */
+    width: 35%; 
+    height: 50%;
+    border: 0px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
     z-index: 1000;
     opacity: 1;
+    .chatbot.active{
+    top: 40%;
 }
+} */
 
  iframe {
     width: 100%;
@@ -659,9 +662,7 @@ section{
     border: none;
     border-radius: inherit;
 }
-.chatbot.active{
-    top: 40%;
-}
+
 
 .gojo img{
     position: fixed;
