@@ -534,6 +534,7 @@ section{
 .end{
     background: var(--light-yellow);
     text-align: center;
+    color: black;
 }
 
 .popup {

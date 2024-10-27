@@ -80,7 +80,7 @@ var swiper = new Swiper (".featured-slider",{
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     }
-    });
+    })
 
 
 var swiper = new Swiper (".vehicles-slider",{
@@ -120,10 +120,7 @@ var swiper = new Swiper (".vehicles-slider",{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         }
-        });
-function hmmm(){
-    window.alert("User must be logged in to proceed")
-}
+        })
 // for payment page
 document.querySelector('#swiper').onclick=() =>{
     document.querySelector('.chatbot').classList.toggle('active')
